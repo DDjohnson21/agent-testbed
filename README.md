@@ -1,6 +1,6 @@
 # agent-testbed
 
-A small Python project used as the target for the MergeFund Agnet Layer PoC. It contains a few simple utilities (`add`, `multiply`, `is_even`, `sum_range`, `parse_config`) and a `pytest` suite. Several functions are intentionally broken; each broken behavior has a matching open issue. The agent's job is to open PRs that fix them.
+A small Python project used as the target for the MergeFund Agent Layer PoC. It contains a few simple utilities (`add`, `multiply`, `is_even`, `sum_range`, `parse_config`) and a `pytest` suite. Several functions are intentionally broken; each broken behavior has a matching open issue. The agent's job is to open PRs that fix them.
 
 ## Running the tests
 
