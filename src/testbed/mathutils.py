@@ -14,6 +14,6 @@ def is_even(n: int) -> bool:
 
 def sum_range(start: int, end: int) -> int:
     total = 0
-    for i in range(start, end):
+    for i in range(start, end + 1):
         total += i
     return total
