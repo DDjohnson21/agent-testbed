@@ -5,7 +5,7 @@ def add(a: int, b: int) -> int:
 
 
 def multiply(a: int, b: int) -> int:
-    raise NotImplementedError("multiply is not implemented yet")
+    return a * b
 
 
 def is_even(n: int) -> bool:
