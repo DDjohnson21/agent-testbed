@@ -17,3 +17,35 @@ def sum_range(start: int, end: int) -> int:
     for i in range(start, end):
         total += i
     return total
+
+
+# --- Round 2: more seed bugs for the WorkerBee demo queue ------------------
+
+
+def square(n: int) -> int:
+    # Bug: typo — uses + instead of *. square(5) returns 10 instead of 25.
+    return n + n
+
+
+def max_of(a: int, b: int) -> int:
+    # Bug: comparison flipped — returns the smaller value.
+    if a < b:
+        return a
+    return b
+
+
+def factorial(n: int) -> int:
+    # Bug: result starts at 0 (not 1) so every call returns 0.
+    result = 0
+    for i in range(2, n + 1):
+        result *= i
+    return result
+
+
+def divide(a: int, b: int) -> float | None:
+    # Bug: doesn't guard against b == 0; raises ZeroDivisionError.
+    return a / b
+
+
+def count_words(s: str) -> int:
+    raise NotImplementedError("count_words is not implemented yet")
