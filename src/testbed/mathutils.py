@@ -49,3 +49,9 @@ def divide(a: int, b: int) -> float | None:
 
 def count_words(s: str) -> int:
     raise NotImplementedError("count_words is not implemented yet")
+
+
+def hello_world() -> str:
+    # Smoke-test bounty: easiest possible issue for a fresh agent to claim.
+    # Should return the canonical "Hello, World!" string.
+    raise NotImplementedError("hello_world is not implemented yet")

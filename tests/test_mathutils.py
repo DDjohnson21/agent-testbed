@@ -5,6 +5,7 @@ from testbed.mathutils import (
     count_words,
     divide,
     factorial,
+    hello_world,
     is_even,
     max_of,
     multiply,
@@ -84,3 +85,8 @@ def test_count_words_basic():
     assert count_words("hello world from workerbee") == 4
     # Multiple spaces shouldn't double-count.
     assert count_words("  one   two   three  ") == 3
+
+
+def test_hello_world():
+    # Smoke-test bounty: the canonical first issue for a fresh agent to claim.
+    assert hello_world() == "Hello, World!"
