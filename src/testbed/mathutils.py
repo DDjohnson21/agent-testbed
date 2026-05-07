@@ -48,7 +48,7 @@ def divide(a: int, b: int) -> float | None:
 
 
 def count_words(s: str) -> int:
-    raise NotImplementedError("count_words is not implemented yet")
+    return len(s.split())
 
 
 def hello_world() -> str:
